@@ -1,5 +1,4 @@
 import hashlib
-from types import TracebackType
 
 def convert_text_to_md5(text:str):
     m = hashlib.md5()
